@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "olivierphi"
+version = "0.1.0"
+description = "My GitHub README"
+authors = ["Olivier Philippon <olivier@dunsap.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+isort = "^5.10.1"
+
+[tool.black]
+line-length = 119
+target-version = ['py310']
+
+[tool.isort]
+py_version = 310
+profile = "black"
+line_length = 119
+multi_line_output = 3
+combine_as_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
