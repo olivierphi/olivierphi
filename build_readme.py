@@ -1,5 +1,7 @@
-# Heavily inspired by Simon Willison's own README repo :-)
+# Heavily ~copy-pasted~ inspired by Simon Willison's README repo :-)
 # @link https://github.com/simonw/simonw
+# The `replace_chunk` function and the `if __name__ == "__main__"` block are pretty much copy-pasted from there,
+# the rest is my own quick code.
 
 import http.client
 import re
@@ -13,6 +15,7 @@ DEVBLOG_RSS_FEED_ITEMS_EXCLUDE_LIST = ("Homepage", "Tags")
 DEVBLOG_ITEM_URL_PATTERN = re.compile(
     r"^https://[^/]+/(?P<year>\d{4})/(?P<month>\d{2})-(?P<day>\d{2})---(?P<slug>[^/]+)/$"
 )
+DEVBLOG_RSS_FEED_ITEMS_LIMIT = 10
 
 
 class DevblogItem(NamedTuple):
@@ -52,7 +55,7 @@ def download_devblog_rss_feed() -> bytes:
 
 
 def replace_chunk(content: str, marker: str, chunk: str) -> str:
-    # Copy-pasted (and slightly adapted) from https://github.com/simonw/simonw/blob/master/build_readme.py
+    # Copy-pasted (and slightly adapted) from Simon Willison's own `replace_chunk` function
     r = re.compile(
         rf"<!\-\- {marker} starts \-\->.*<!\-\- {marker} ends \-\->",
         re.DOTALL,
@@ -65,7 +68,6 @@ if __name__ == "__main__":
     from pathlib import Path
 
     # Pretty much a copy-paste from Simon Willison's own script, once again :-)
-    # @link https://github.com/simonw/simonw/blob/master/build_readme.py
 
     root = Path(__file__).parent.resolve()
 
@@ -73,7 +75,10 @@ if __name__ == "__main__":
     rss_feed_content = download_devblog_rss_feed()
     rss_feed_items = parse_devblog_rss_feed(rss_feed_content)
     devblog_markdown = md = "\n".join(
-        [f"* [{item.title}]({item.url}) - {item.published_at}" for item in rss_feed_items[:10]]
+        [
+            f"* {item.published_at}: [{item.title}]({item.url})"
+            for item in rss_feed_items[:DEVBLOG_RSS_FEED_ITEMS_LIMIT]
+        ]
     )
 
     # Read the current README...
@@ -83,5 +88,5 @@ if __name__ == "__main__":
     # ...Rewrite some of its content...
     rewritten = replace_chunk(readme_contents, "devblog", devblog_markdown)
 
-    # ...And rewrite it! :-)
+    # ...And rewrite the file! :-)
     readme_path.open("wt").write(rewritten)
