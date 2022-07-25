@@ -10,6 +10,10 @@ Read [my devblog](https://devblog.dunsap.com/) or [follow @Rougemine on Twitter]
 
 ### On my devblog
 <!-- devblog starts -->
+* ['From scratch to online in production' in a single day, with Django - Part 2](https://devblog.dunsap.com/2022/07-22---from-scratch-to-online-in-production-in-a-single-day-with-django-part-2/) - 2022-07-22
+* ['From scratch to online in production' in a single day, with Django - Part 1](https://devblog.dunsap.com/2022/07-19---from-scratch-to-online-in-production-in-a-single-day-with-django-part-1/) - 2022-07-19
+* [Building a Markdown-based blog](https://devblog.dunsap.com/2022/07-12---building-a-markdown-based-blog/) - 2022-07-12
+* [Choosing a tech stack for my card game platform](https://devblog.dunsap.com/2022/07-10---choosing-a-tech-stack-for-my-card-game-platform/) - 2022-07-10
 <!-- devblog ends -->
 More on [devblog.dunsap.com](https://devblog.dunsap.com/)
 
