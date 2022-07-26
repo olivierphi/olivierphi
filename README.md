@@ -18,7 +18,9 @@ _(this list is [generated automatically](https://github.com/olivierphi/olivierph
 
 <!-- devblog starts -->
 <!-- devblog ends -->
-More on [devblog.dunsap.com](https://devblog.dunsap.com/)
+<a href="https://devblog.dunsap.com/2022/07-26---triggering-a-github-action-from-an-external-source/">How updating the devblog automatically updates this content</a>
+
+<br>
 
 <a href="https://github.com/olivierphi/olivierphi/actions"><img src="https://github.com/olivierphi/olivierphi/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a>
 
