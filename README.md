@@ -17,6 +17,7 @@ In the past I've worked with **Symfony**, **Zend Framework**, **Node.js**, **Rub
 _(this list is [generated automatically](https://github.com/olivierphi/olivierphi/blob/main/build_readme.py) by a GitHub Action from the blog's RSS feed)_ :robot: 
 
 <!-- devblog starts -->
+* 2023-08-18: [business_logic.py](https://devblog.dunsap.com/2023/08-18---business_logic.py/)
 * 2023-05-26: [Let's try Kitty layouts](https://devblog.dunsap.com/2023/05-26---let-s-try-kitty-layouts/)
 * 2023-05-17: [TIL: Hashing data in the form of a UUID](https://devblog.dunsap.com/2023/05-17---til-content-hash-in-the-form-of-a-uuid/)
 * 2022-11-11: [Using Alembic with SQLAlchemy 2](https://devblog.dunsap.com/2022/11-11---using-alembic-with-with-sqlalchemy-2/)
@@ -26,7 +27,6 @@ _(this list is [generated automatically](https://github.com/olivierphi/olivierph
 * 2022-07-26: [Triggering a GitHub Action from an external source](https://devblog.dunsap.com/2022/07-26---triggering-a-github-action-from-an-external-source/)
 * 2022-07-22: ['From scratch to online in production' in a single day, with Django - Part 2](https://devblog.dunsap.com/2022/07-22---from-scratch-to-online-in-production-in-a-single-day-with-django-part-2/)
 * 2022-07-19: ['From scratch to online in production' in a single day, with Django - Part 1](https://devblog.dunsap.com/2022/07-19---from-scratch-to-online-in-production-in-a-single-day-with-django-part-1/)
-* 2022-07-12: [Building a Markdown-based blog](https://devblog.dunsap.com/2022/07-12---building-a-markdown-based-blog/)
 <!-- devblog ends -->
 <a href="https://devblog.dunsap.com/2022/07-26---triggering-a-github-action-from-an-external-source/">How updating the devblog automatically updates this content</a>
 
