@@ -17,6 +17,7 @@ In the past I've worked with **Symfony**, **Zend Framework**, **Node.js**, **Rub
 _(this list is [generated automatically](https://github.com/olivierphi/olivierphi/blob/main/build_readme.py) by a GitHub Action from the blog's RSS feed)_ :robot: 
 
 <!-- devblog starts -->
+* 2024-05-06: [A new engine for this blog](https://devblog.dunsap.com/posts/2024/05-06---a-new-engine-for-this-blog/)
 * 2023-08-18: [business_logic.py](https://devblog.dunsap.com/posts/2023/08-18---business_logic.py/)
 * 2023-05-26: [Let's try Kitty layouts](https://devblog.dunsap.com/posts/2023/05-26---let-s-try-kitty-layouts/)
 * 2023-05-17: [TIL: Hashing data in the form of a UUID](https://devblog.dunsap.com/posts/2023/05-17---til-content-hash-in-the-form-of-a-uuid/)
@@ -26,7 +27,6 @@ _(this list is [generated automatically](https://github.com/olivierphi/olivierph
 * 2022-07-28: [Making SQLite much faster in a local dev environment](https://devblog.dunsap.com/posts/2022/07-28---making-sqlite-much-faster-in-a-local-dev-environment/)
 * 2022-07-26: [Triggering a GitHub Action from an external source](https://devblog.dunsap.com/posts/2022/07-26---triggering-a-github-action-from-an-external-source/)
 * 2022-07-22: ['From scratch to online in production' in a single day, with Django - Part 2](https://devblog.dunsap.com/posts/2022/07-22---from-scratch-to-online-in-production-in-a-single-day-with-django-part-2/)
-* 2022-07-19: ['From scratch to online in production' in a single day, with Django - Part 1](https://devblog.dunsap.com/posts/2022/07-19---from-scratch-to-online-in-production-in-a-single-day-with-django-part-1/)
 <!-- devblog ends -->
 <a href="https://devblog.dunsap.com/2022/07-26---triggering-a-github-action-from-an-external-source/">How updating the devblog automatically updates this content</a>
 
