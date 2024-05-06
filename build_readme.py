@@ -10,10 +10,10 @@ from datetime import date
 from http import HTTPStatus
 from typing import NamedTuple
 
-DEVBLOG_RSS_FEED_URL = {"host": "devblog.dunsap.com", "path": "/feed_rss_created.xml"}
+DEVBLOG_RSS_FEED_URL = {"host": "devblog.dunsap.com", "path": "/rss.xml"}
 DEVBLOG_RSS_FEED_ITEMS_EXCLUDE_LIST = ("Homepage", "Tags")
 DEVBLOG_ITEM_URL_PATTERN = re.compile(
-    r"^https://[^/]+/(?P<year>\d{4})/(?P<month>\d{2})-(?P<day>\d{2})---(?P<slug>[^/]+)/$"
+    r"^https://[^/]+/posts/(?P<year>\d{4})/(?P<month>\d{2})-(?P<day>\d{2})---(?P<slug>[^/]+)/$"
 )
 DEVBLOG_RSS_FEED_ITEMS_LIMIT = 10
 
